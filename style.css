@@ -8,22 +8,23 @@
 footer{
      font-family: 'Maven Pro', sans-serif;;
 }
-.customer{
+#customer{
     background-color: #089de3;
     text-align: center;
     color: white;
     padding-top: 25px;
+    margin-top: 10px;
 }
-.customer > img{
+#customer > img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
     object-fit: contain;
 }
-.customer > h1 {
+#customer > h1 {
     padding-top: 20px;
 }
-.customer > p {
+#customer > p {
     padding: 0px 50px 50px 50px;
     text-align: justify;
     font-size: 20px;
