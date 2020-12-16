@@ -29,3 +29,8 @@ footer{
     text-align: justify;
     font-size: 20px;
 }
+
+.myform{
+    width: 50%;
+    margin: auto;
+}
