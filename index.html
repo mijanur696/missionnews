@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dec 17,2020 -- Mission News website build for, send job related Notification to the user.">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Vidaloka&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8d150c20f8.js" crossorigin="anonymous"></script>
-    <title>Bootstrap Site</title>
+    <title>mymissionnews.in</title>
 
 </head>
 
@@ -222,14 +223,16 @@
     <div id="add">
 
         <div class="container">
+            <h2 class="text-center mb-4">Send Your Notification</h2>
             <form action="mailto:mijanur696@gmail.com" method="post" enctype="text/plain" class="myform">
+                
                 <div class="mb-2">
-                  <label>Name</label>
-                  <input type="text" class="form-control form-sm" name="Name"/>
+                  <label> Institution Name</label>
+                  <input type="text" class="form-control form-sm" name="Name" required/>
                 </div>
                 <div class="mb-2">
                     <label>Mobile</label>
-                    <input type="Number" name="Number" class="form-control form-sm"/>
+                    <input type="Number" name="Number" class="form-control form-sm" required/>
                   </div>
                   <div class="mb-2">
                     <label>Email</label>
@@ -240,7 +243,8 @@
                    <textarea class="form-control" name="Description" rows="4"></textarea>
                   </div>
 
-                  <input type="submit" value="Send" class="btn btn-primary btn-sm">
+                  <input type="submit" value="Send" class="btn btn-primary"><br><br>
+                  <p>* তথ্য ইমেল এর মাধ্যমে প্রেরণ হবে পরবর্তী ধাপ গুলো পূর্ণ করুন।</p>
             </form>
 
         </div>

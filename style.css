@@ -34,3 +34,9 @@ footer{
     width: 50%;
     margin: auto;
 }
+
+@media screen and (max-width:768px){
+    .myform {
+        width: 100%;
+    }
+}
