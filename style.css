@@ -45,9 +45,9 @@ footer{
     font-size: larger;
     font-weight: bold;
 }
-.roles{
+/* .roles{
     line-height: 12px;
-}
+} */
 
 .btn > a{
     text-decoration: none;
