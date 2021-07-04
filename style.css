@@ -43,6 +43,10 @@ footer{
     .item-div{
         width: 100%;
     }
+
+    .roles{
+        line-height: 14px;
+    }
 }
 
 .item-div{
