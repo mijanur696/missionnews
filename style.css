@@ -35,19 +35,7 @@ footer{
     margin: auto;
 }
 
-@media screen and (max-width:768px){
-    .myform {
-        width: 100%;
-    }
 
-    .item-div{
-        width: 100%;
-    }
-
-    .roles{
-        font-size: 11px;
-    }
-}
 
 .item-div{
     width: 90%;
@@ -65,4 +53,18 @@ footer{
     text-decoration: none;
     color: #f1f1f1;
     
+}
+
+@media screen and (max-width:768px){
+    .myform {
+        width: 100%;
+    }
+
+    .item-div{
+        width: 100%;
+    }
+
+    .roles{
+        font-size: 11px;
+    }
 }
