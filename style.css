@@ -43,5 +43,18 @@ footer{
 
 .item-div{
     width: 90%;
-    margin: 3% auto;
+    margin: 2% auto;
+}
+.position {
+    font-size: larger;
+    font-weight: bold;
+}
+.roles{
+    line-height: 12px;
+}
+
+.btn > a{
+    text-decoration: none;
+    color: #f1f1f1;
+    
 }
