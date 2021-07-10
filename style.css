@@ -55,6 +55,11 @@ footer{
     
 }
 
+marquee{
+    color: red;
+}
+
+
 @media screen and (max-width:768px){
     .myform {
         width: 100%;
@@ -64,3 +69,4 @@ footer{
         width: 100%;
     }
 }
+
